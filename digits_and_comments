@@ -1,0 +1,30 @@
+    keyword linestart \* brightgreen
+
+    keyword whole 1\[1234567890\] brightgreen
+    keyword whole 2\[1234567890\] brightgreen
+    keyword whole 3\[1234567890\] brightgreen
+    keyword whole 4\[1234567890\] brightgreen
+    keyword whole 5\[1234567890\] brightgreen
+    keyword whole 6\[1234567890\] brightgreen
+    keyword whole 7\[1234567890\] brightgreen
+    keyword whole 8\[1234567890\] brightgreen
+    keyword whole 9\[1234567890\] brightgreen
+    keyword whole 0\[1234567890\] brightgreen
+
+
+    keyword ; brightcyan
+    context " " magenta
+    context ' ' magenta
+
+
+
+wholechars abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._
+
+
+
+context exclusive /\* \*/ green
+    spellcheck
+
+context exclusive linestart \* \n green
+    spellcheck
+

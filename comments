@@ -1,0 +1,5 @@
+context /\* \*/ _color_
+context linestart \* \n _color_
+context linestart \s\[\s*\t*\]\* \n _color_
+context linestart \t\[\s*\t*\]\* \n _color_
+context exclusive ;\[\s*\t*\]\* \n _color_
